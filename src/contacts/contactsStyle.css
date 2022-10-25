@@ -1,0 +1,45 @@
+.contacts__title{
+    padding-top: 5em;
+}
+
+.contacts__title_contact{
+    text-align: center;
+    color: #1bfca3;
+}
+
+.contacts__title_rsk{
+    text-align: center;
+    color: white;
+}
+
+.contacts__general{
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts__img{ 
+    box-shadow: 0px 10px 15px 10px #000;
+}
+
+.contacts__text{
+    padding-right: 150px;
+    font-size: 21px;
+    color: white;
+    line-height: 2em;
+}
+
+.contacts__link{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s linear;
+}
+
+.contacts__link:hover{
+    color: #1bfca3;
+    text-decoration: underline;
+}

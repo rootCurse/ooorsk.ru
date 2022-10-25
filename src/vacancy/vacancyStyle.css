@@ -1,0 +1,35 @@
+.main__container{
+    margin-top: 75px;
+}
+
+.main__title{
+    color: #1bfca3;
+    text-align: center;
+}
+
+.vacancy__subcontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vacancy{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.vacancy__picture{
+    box-shadow: 0px 10px 15px 10px #000;
+}
+
+.vacancy__title{
+    padding-top: 50px;
+    color: #1bfca3;
+    text-align: center;
+}
+
+.vacancy__text{
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}

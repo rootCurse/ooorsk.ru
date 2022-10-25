@@ -1,0 +1,41 @@
+.main__container{
+    padding-top: 50px;
+}
+
+.main__title{
+    color: #1bfca3;
+    text-align: center;
+}
+
+.main__subtitle{
+    color: white;
+    text-align: center;
+}
+
+.main__subcontainer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.principe{
+    background: #393e44;
+    width: 310px;
+    height: 500px;
+    box-shadow: 0px 10px 15px 10px #000;
+}
+
+.principe__title{
+    text-align: center;
+    color: #1bfca3;
+    
+}
+
+.principe__text{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 2em;
+    padding: 0 10px;
+}
