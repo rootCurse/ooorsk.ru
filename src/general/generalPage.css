@@ -36,8 +36,7 @@
 
 .main__text{
     color: white;
-    text-align: justify;
-    padding-left: 5%;
+    text-align: justify;  
     line-height: 2em;
     font-size: 21px; 
 }

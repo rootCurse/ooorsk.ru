@@ -1,5 +1,5 @@
 .contacts__title{
-    padding-top: 5em;
+    padding-top: 7em;
 }
 
 .contacts__title_contact{
@@ -13,10 +13,8 @@
 }
 
 .contacts__general{
-    margin-left: 150px;
-    margin-top: 100px;
-    margin-right: 150px;
     padding-bottom: 50px;
+    margin: 0 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +25,6 @@
 }
 
 .contacts__text{
-    padding-right: 150px;
     font-size: 21px;
     color: white;
     line-height: 2em;
@@ -42,4 +39,10 @@
 .contacts__link:hover{
     color: #1bfca3;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1400px){
+    .contacts__img{
+        display: none;
+    }
 }
