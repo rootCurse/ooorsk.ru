@@ -9,7 +9,6 @@ header{
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     background: #393e44;
     width: 100%;
     top: 0;
