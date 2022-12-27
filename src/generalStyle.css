@@ -42,6 +42,64 @@ header{
     text-decoration: underline;
 }
 
+.menu__btn{
+    display: none;
+}
+
+.menu__phone_hidden{
+    display: none;
+}
+
+.menu__phone_display{
+    top: 0;
+    line-height: 3em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.popup__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    height: 100%;
+    opacity: 0.95;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+
+.menu__link_phone{
+    color: #ffffff;
+    font-size: 1.25em;
+    text-decoration: none;
+    transition: color 0.5s linear;
+    transition: color 0.5s linear;
+}
+
+.menu__link_phone:hover{
+    color: #1bfca3;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .menu{
+        display: none;
+    }
+    .menu__btn{
+        display: block;
+        margin-right: 2%;
+    }
+}
+
 footer{
     width: 100%;
     height: 100%;

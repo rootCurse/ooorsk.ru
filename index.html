@@ -7,8 +7,19 @@
 	<link href="src/general/generalPage.css" rel="stylesheet">
     <link href="src/generalStyle.css" rel="stylesheet">
 	<title>ООО "РСК"</title>
+    <script src="src/phone__menu.js"></script>
 </head>
 <body>
+    <div id="popup" class="menu__phone_hidden">
+        <nav id="menu__phone" class="menu__phone_display">
+            <a class="menu__link_phone" href="/">Главная</a>
+            <a class="menu__link_phone" href="">О нас</a>
+            <a class="menu__link_phone" href="pages/principles.html">Принципы</a>
+            <a class="menu__link_phone" href="pages/services.html">Услуги</a>
+            <a class="menu__link_phone" href="pages/vacancy.html">Вакансии</a>
+            <a class="menu__link_phone" href="pages/contacts.html">Контакты</a>
+        </nav>
+    </div>
     <header>
         <h1 class="title">ООО "РегионСтальКомплект"</h1>
         <nav class="menu">
@@ -19,6 +30,7 @@
             <a class="menu__link" href="pages/vacancy.html">Вакансии</a>
             <a class="menu__link" href="pages/contacts.html">Контакты</a>
         </nav>
+        <button id="menu" class="menu__btn"><img src="src/menu.png"></button>
     </header>
     <main>
         <div class="main__container">
